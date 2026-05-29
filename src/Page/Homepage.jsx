@@ -6,9 +6,9 @@ import Work from "../components/Homepage/Work"
 import ServicesPricingSection from "../components/Homepage/ServicesPricingSection"
 import ContactSection from "../components/Homepage/ContactSection"
 
-import FAQ from "../components/Homepage/FAQ";
 import Testimonials from "../components/Homepage/Testimonials";
 import DiscoverSection from '../components/Homepage/Discover';
+import FAQSection from '../components/Homepage/Faq';
 
 function Home() {
   return (
@@ -21,9 +21,7 @@ function Home() {
       <Work />
       <ServicesPricingSection />
       <Testimonials />
-      <FAQ />
-      
-    
+      <FAQSection />
     </>
   );
 }
