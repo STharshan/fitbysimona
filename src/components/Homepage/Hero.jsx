@@ -100,9 +100,9 @@ const HeroSection = () => {
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
               Where Your Transformation Begins
             </span>
-            <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
+            <p className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
               Guiding you back to confidence, strength & balance.
-            </h2>
+            </p>
           </motion.div>
 
           {/* Sequential Text Overlay 2 */}
@@ -113,9 +113,9 @@ const HeroSection = () => {
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
               What I Now Know
             </span>
-            <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
+            <p className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
               Healing begins the moment you choose yourself.
-            </h2>
+            </p>
           </motion.div>
 
           {/* Sequential Text Overlay 3 */}
@@ -126,9 +126,9 @@ const HeroSection = () => {
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
               Why This Matters to Me
             </span>
-            <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
+            <p className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
               because becoming her is possible for every woman.
-            </h2>
+            </p>
           </motion.div>
         </motion.div>
 
