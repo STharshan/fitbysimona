@@ -19,7 +19,7 @@ function Home() {
       <Packages />
       <DiscoverSection />
       <Work />
-      <ServicesPricingSection />
+     
       <Testimonials />
       <FAQSection />
     </>
