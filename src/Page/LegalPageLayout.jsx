@@ -1,6 +1,6 @@
 export default function LegalPageLayout({ title, updatedOn, children }) {
   return (
-    <section className="min-h-screen bg-[#f7f4f1] px-4 pb-20 pt-36 md:pt-40">
+    <main className="min-h-screen bg-[#f7f4f1] px-4 pb-20 pt-36 md:pt-40">
       <div className="mx-auto max-w-4xl rounded-[32px] border border-[#e8e1da] bg-white p-8 shadow-sm md:p-12">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9d9287]">
           Legal
@@ -13,6 +13,6 @@ export default function LegalPageLayout({ title, updatedOn, children }) {
           {children}
         </div>
       </div>
-    </section>
+    </main>
   );
 }

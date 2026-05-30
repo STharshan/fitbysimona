@@ -8,7 +8,7 @@ import FAQSection from "../components/Homepage/Faq";
 import Education from "../components/Homepage/Eduction";
 function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Transformation />
       <Packages />
@@ -16,8 +16,7 @@ function Home() {
       <Testimonials />
       <Education />
       <FAQSection />
-
-    </>
+    </main>
   );
 }
 

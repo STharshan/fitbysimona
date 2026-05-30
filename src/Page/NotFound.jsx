@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NotFound() {
   return (
-    <section className="flex min-h-screen items-center bg-[#f7f4f1] px-4 pt-28">
+    <main className="flex min-h-screen items-center bg-[#f7f4f1] px-4 pt-28">
       <div className="mx-auto max-w-3xl rounded-[32px] border border-[#e8e1da] bg-white p-10 text-center shadow-sm md:p-14">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#9d9287]">
           404 Error
@@ -34,6 +34,6 @@ export default function NotFound() {
           </a>
         </div>
       </div>
-    </section>
+    </main>
   );
 }
