@@ -39,7 +39,7 @@ const HeroSection = () => {
     <section ref={sectionRef} className="relative h-[300vh]">
       <motion.div
         style={{ y: stickyY }}
-        className="sticky top-0 flex h-[135vh] w-full flex-col items-center justify-start overflow-hidden px-4 pt-28"
+        className="relative sticky top-0 flex h-[135vh] w-full flex-col items-center justify-start overflow-hidden px-4 pt-28"
       >
         
         {/* 1. Top Heading Container */}
@@ -50,21 +50,21 @@ const HeroSection = () => {
         >
           {/* Decorative badges */}
           <span className="absolute left-[16%] top-[-4px] rounded-md bg-[#f5c77c] px-4 py-1 text-[11px] font-bold uppercase tracking-[0.25em] text-[#1e1c1a]">
-            Brand as body
+            Shaped by Confidence
           </span>
 
           <h1 className="font-serif text-[52px] leading-[0.95] tracking-[-0.05em] text-[#1e1c1a] md:text-[80px]">
-            From solo practices to
+            Built for Women Ready to
             <br />
-            emerging collectives
+            Level Up
           </h1>
 
           <span className="absolute right-[10%] top-[90px] rounded-md bg-[#c0846b] px-4 py-1 text-[11px] font-bold uppercase tracking-[0.22em] text-[#1e1c1a]">
-            Female-led
+            Built to Empower.
           </span>
 
           <span className="absolute bottom-[-14px] left-[4%] rounded-md bg-white px-4 py-1 text-[11px] font-bold uppercase tracking-[0.22em] text-[#1e1c1a] shadow-sm">
-            Consulting
+            Collective
           </span>
         </motion.div>
 
@@ -98,10 +98,10 @@ const HeroSection = () => {
             className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center"
           >
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
-              Where I Begin
+              Where Your Transformation Begins
             </span>
             <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
-              I guide you back to what's already yours.
+              Guiding you back to confidence, strength & balance.
             </h2>
           </motion.div>
 
@@ -111,11 +111,10 @@ const HeroSection = () => {
             className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center"
           >
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
-              What I've Seen
+              What I Now Know
             </span>
             <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
-              Healing isn't linear
-              <br />— but it's real.
+              Healing begins the moment you choose yourself.
             </h2>
           </motion.div>
 
@@ -125,16 +124,34 @@ const HeroSection = () => {
             className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center"
           >
             <span className="mb-5 rounded-full bg-white/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md">
-              Why I Stay
+              Why This Matters to Me
             </span>
             <h2 className="max-w-4xl font-serif text-[42px] leading-[1.05] text-white md:text-[76px]">
-              Because presence
-              <br />
-              changes everything.
+              because becoming her is possible for every woman.
             </h2>
           </motion.div>
         </motion.div>
 
+        <div className="absolute inset-x-0 bottom-10 z-20 mx-auto flex w-full max-w-4xl flex-col items-center justify-center gap-4 px-4 text-center md:bottom-16">
+          <p className="max-w-3xl text-sm leading-7 text-[#1e1c1a] md:text-base">
+            A movement helping women feel as powerful as they look.
+          </p>
+
+          <div className="flex flex-col items-center gap-3 md:flex-row md:gap-4">
+            <a
+              href="#"
+              className="rounded-full bg-[#9d9287] px-7 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-white transition hover:bg-[#867f76]"
+            >
+              Join The Team
+            </a>
+            <a
+              href="#transformations"
+              className="rounded-full border border-[#d8d0c8] bg-[#f4f1ee] px-7 py-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#1e1c1a] transition hover:bg-[#e8e1da]"
+            >
+              Transformations
+            </a>
+          </div>
+        </div>
       </motion.div>
     </section>
   );
