@@ -70,7 +70,9 @@ export default function PricingSection() {
                 }`}
               >
                 <div className="mb-5 flex items-center justify-between gap-3">
-                  <h3 className="text-2xl font-bold">{plan.name}</h3>
+                  <h3 className="font-serif text-2xl font-semibold tracking-tight">
+                    {plan.name}
+                  </h3>
 
                   {plan.popular && (
                     <span className="rounded-full bg-[#f5c77c] px-4 py-2 text-sm font-bold text-[#1e1c1a]">

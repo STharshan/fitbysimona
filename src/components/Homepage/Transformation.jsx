@@ -18,7 +18,7 @@ export default function MethodInAction() {
   return (
     <section className="w-full overflow-hidden bg-white py-10">
       <div className="mx-auto max-w-7xl px-4">
-        <h2 className="mb-16 text-center text-4xl font-black uppercase tracking-tight text-[#1e1c1a] md:text-6xl">
+        <h2 className="mb-16 text-center font-serif text-4xl font-semibold uppercase tracking-tight text-[#1e1c1a] md:text-6xl">
           See The Method In Action
         </h2>
 

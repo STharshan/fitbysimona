@@ -114,7 +114,7 @@ export default function ServicesSection() {
             </div>
 
             <div className="flex max-w-md flex-col gap-3 sm:gap-4 md:max-w-none">
-              <h2 className="m-0 text-[28px] font-serif leading-[1.2] text-[#1e1c1a] sm:text-[36px] md:leading-[1.15] lg:text-[44px]">
+              <h2 className="m-0 font-serif text-[28px] font-semibold leading-[1.2] text-[#1e1c1a] sm:text-[36px] md:leading-[1.15] lg:text-[44px]">
                 Here's how online coaching works.
               </h2>
               <p className="m-0 mx-auto max-w-sm text-sm leading-relaxed text-[#867f76] sm:text-base md:mx-0">
@@ -173,7 +173,7 @@ export default function ServicesSection() {
                       </span>
                     </div>
 
-                    <h3 className="mb-4 text-lg font-bold leading-tight text-[#1e1c1a] sm:text-xl lg:text-2xl">
+                    <h3 className="mb-4 font-serif text-lg font-semibold leading-tight text-[#1e1c1a] sm:text-xl lg:text-2xl">
                       {step.title}
                     </h3>
 

@@ -36,7 +36,7 @@ const testimonials = [
 function TextCard({ title, preview, name, role, onReadMore }) {
   return (
     <div className="rounded-[28px] bg-[#ffffff] p-8">
-      <h3 className="text-[28px] font-medium leading-tight tracking-tight text-[#1e1c1a]">
+      <h3 className="font-serif text-[28px] font-semibold leading-tight tracking-tight text-[#1e1c1a]">
         {title}
       </h3>
 
@@ -73,7 +73,7 @@ function TestimonialModal({ testimonial, onClose }) {
         </button>
 
         <div className="max-h-[90vh] overflow-y-auto p-8 sm:p-10">
-          <h3 className="pr-12 text-[28px] font-medium leading-tight tracking-tight text-[#1e1c1a] sm:text-[34px]">
+          <h3 className="pr-12 font-serif text-[28px] font-semibold leading-tight tracking-tight text-[#1e1c1a] sm:text-[34px]">
             {testimonial.title}
           </h3>
 
@@ -110,7 +110,7 @@ export default function TestimonialsSection() {
               Testimonials
             </span>
 
-            <h2 className="mt-6 text-5xl font-light tracking-tight text-[#1e1c1a] md:text-7xl">
+            <h2 className="mt-6 font-serif text-5xl font-semibold tracking-tight text-[#1e1c1a] md:text-7xl">
               Voices from our community
             </h2>
 

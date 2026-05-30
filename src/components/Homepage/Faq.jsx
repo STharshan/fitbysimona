@@ -58,7 +58,7 @@ export default function FAQSection() {
             />
           </div>
 
-          <h2 className="max-w-md text-4xl font-semibold leading-[1] tracking-tight text-[#1e1c1a] md:text-6xl">
+          <h2 className="max-w-md font-serif text-4xl font-semibold leading-[1] tracking-tight text-[#1e1c1a] md:text-6xl">
             Everything you need to know.
           </h2>
 
@@ -99,7 +99,7 @@ export default function FAQSection() {
                     onClick={() => toggleFAQ(index)}
                     className="flex w-full items-center justify-between gap-5 px-6 py-6 text-left md:px-8"
                   >
-                    <h3 className="text-base font-medium leading-snug text-[#1e1c1a] md:text-[22px]">
+                    <h3 className="font-serif text-base font-semibold leading-snug text-[#1e1c1a] md:text-[22px]">
                       {faq.question}
                     </h3>
 

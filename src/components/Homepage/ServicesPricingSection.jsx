@@ -56,7 +56,7 @@ export default function AboutSection() {
           </div>
 
           {/* TITLE */}
-          <h2 className="mb-6 text-5xl font-bold leading-tight tracking-tight text-[#1e1c1a] md:text-7xl">
+          <h2 className="mb-6 font-serif text-5xl font-semibold leading-tight tracking-tight text-[#1e1c1a] md:text-7xl">
             Discover the story of Aluna.
           </h2>
 
