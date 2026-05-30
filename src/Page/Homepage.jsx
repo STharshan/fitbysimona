@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from "../components/Homepage/Hero";
 import Packages from "../components/Homepage/Packages"
 import Transformation from "../components/Homepage/Transformation"
-import Work from "../components/Homepage/Work"
+
 import ServicesPricingSection from "../components/Homepage/ServicesPricingSection"
 import ContactSection from "../components/Homepage/ContactSection"
 
@@ -18,7 +18,7 @@ function Home() {
       <Transformation />
       <Packages />
       <DiscoverSection />
-      <Work />
+      
      
       <Testimonials />
       <FAQSection />
