@@ -38,9 +38,11 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="w-full overflow-hidden bg-[#f7f4f1] py-20 md:py-28">
+    <section
+      id="faqs"
+      className="w-full overflow-hidden bg-[#f7f4f1] py-16 md:py-20"
+    >
       <div className="mx-auto grid max-w-7xl gap-14 px-4 lg:grid-cols-[0.9fr_1.1fr]">
-        {/* LEFT SIDE */}
         <motion.div
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +50,6 @@ export default function FAQSection() {
           viewport={{ once: true }}
           className="flex flex-col justify-center"
         >
-          {/* ICON */}
           <div className="mb-8">
             <HeartHandshake
               size={46}
@@ -57,24 +58,20 @@ export default function FAQSection() {
             />
           </div>
 
-          {/* TITLE */}
-          <h2 className="max-w-md text-5xl font-semibold leading-[0.95] tracking-tight text-[#1e1c1a] md:text-7xl">
+          <h2 className="max-w-md text-4xl font-semibold leading-[1] tracking-tight text-[#1e1c1a] md:text-6xl">
             Everything you need to know.
           </h2>
 
-          {/* DESC */}
-          <p className="mt-8 max-w-md text-xl leading-[1.7] text-[#867f76] md:text-2xl">
+          <p className="mt-6 max-w-md text-base leading-8 text-[#867f76] md:text-lg">
             Everything you need to know before starting your coaching journey.
           </p>
 
-          {/* BUTTON */}
-          <button className="mt-10 flex w-fit items-center gap-3 rounded-full bg-[#9d9287] px-7 py-4 text-lg font-medium text-[#ffffff] transition-all duration-300 hover:scale-105">
-            <span className="text-xl">•</span>
+          <button className="mt-8 flex w-fit items-center gap-3 rounded-full bg-[#9d9287] px-6 py-3 text-sm font-medium text-[#ffffff] transition-all duration-300 hover:scale-105">
+            <span className="text-base">*</span>
             Contact us
           </button>
         </motion.div>
 
-        {/* RIGHT FAQ */}
         <motion.div
           initial={{ opacity: 0, x: 80 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -98,12 +95,11 @@ export default function FAQSection() {
                   }}
                   className="overflow-hidden rounded-[22px] bg-[#ffffff]/60 backdrop-blur-sm"
                 >
-                  {/* HEADER */}
                   <button
                     onClick={() => toggleFAQ(index)}
                     className="flex w-full items-center justify-between gap-5 px-6 py-6 text-left md:px-8"
                   >
-                    <h3 className="text-lg font-medium leading-snug text-[#1e1c1a] md:text-[28px]">
+                    <h3 className="text-base font-medium leading-snug text-[#1e1c1a] md:text-[22px]">
                       {faq.question}
                     </h3>
 
@@ -122,7 +118,6 @@ export default function FAQSection() {
                     </motion.div>
                   </button>
 
-                  {/* CONTENT */}
                   <AnimatePresence initial={false}>
                     {isOpen && (
                       <motion.div
@@ -136,7 +131,7 @@ export default function FAQSection() {
                         className="overflow-hidden"
                       >
                         <div className="px-6 pb-7 md:px-8">
-                          <p className="max-w-3xl text-base leading-[1.8] text-[#867f76] md:text-xl">
+                          <p className="max-w-3xl text-sm leading-7 text-[#867f76] md:text-base">
                             {faq.answer}
                           </p>
                         </div>

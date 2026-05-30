@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import HomePage from "./Page/Homepage";
 
@@ -33,7 +34,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
        
       </Routes>
-    
+      <Footer />
       <GDPRConsent />
     </Router>
   );

@@ -52,7 +52,7 @@ const plans = [
 
 export default function PricingSection() {
   return (
-    <section className="w-full bg-[#f7f4f1] py-10">
+    <section id="packages" className="w-full bg-[#f7f4f1] py-10">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid gap-8 md:grid-cols-3">
           {plans.map((plan) => (

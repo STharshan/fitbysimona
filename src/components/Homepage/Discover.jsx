@@ -96,10 +96,10 @@ export default function ServicesSection() {
     <section
       ref={outerRef}
       id="services"
-      className="relative w-full bg-[#f7f4f1] pt-24 md:pt-28"
+      className="relative w-full bg-[#f7f4f1] pt-20 md:pt-24"
       style={{ height: "255vh" }}
     >
-      <div className="sticky top-20 flex h-screen w-full items-center overflow-hidden px-4 sm:top-24 sm:px-8 md:px-[8%]">
+      <div className="sticky top-16 flex h-screen w-full items-center overflow-hidden px-4 sm:top-20 sm:px-8 md:px-[8%]">
         <div className="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-16">
           <div
             className="z-10 flex flex-col items-center gap-4 text-center transition-all duration-75 ease-out will-change-transform md:items-start md:text-left"

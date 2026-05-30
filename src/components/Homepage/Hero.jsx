@@ -36,7 +36,7 @@ const HeroSection = () => {
   const stickyY = useTransform(scrollYProgress, [0.88, 1], ["0vh", "0vh"]);
 
   return (
-    <section ref={sectionRef} className="relative h-[300vh]">
+    <section ref={sectionRef} id="home" className="relative h-[300vh]">
       <motion.div
         style={{ y: stickyY }}
         className="relative sticky top-0 flex h-[135vh] w-full flex-col items-center justify-start overflow-hidden px-4 pt-28"
