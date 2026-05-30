@@ -26,7 +26,7 @@ export default function MethodInAction() {
           <button
             onClick={prevSlide}
             disabled={active === 0}
-            className={`absolute left-[24%] z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#e8e1da] bg-white text-[#1e1c1a] shadow-xl transition-all active:scale-95 md:left-[27%] ${
+            className={`absolute left-2 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#e8e1da] bg-white text-[#1e1c1a] shadow-xl transition-all active:scale-95 sm:left-4 md:left-[27%] ${
               active === 0 ? "cursor-not-allowed opacity-30" : "opacity-100"
             }`}
           >
@@ -78,7 +78,7 @@ export default function MethodInAction() {
           <button
             onClick={nextSlide}
             disabled={active === images.length - 1}
-            className={`absolute right-[24%] z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#e8e1da] bg-white text-[#1e1c1a] shadow-xl transition-all active:scale-95 md:right-[27%] ${
+            className={`absolute right-2 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-[#e8e1da] bg-white text-[#1e1c1a] shadow-xl transition-all active:scale-95 sm:right-4 md:right-[27%] ${
               active === images.length - 1
                 ? "cursor-not-allowed opacity-30"
                 : "opacity-100"
