@@ -78,6 +78,8 @@ export default function MethodInAction() {
                     <img
                       src={item.image}
                       alt=""
+                      loading={isActive ? "eager" : "lazy"}
+                      decoding="async"
                       className="h-full w-full object-cover"
                     />
 

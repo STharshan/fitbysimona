@@ -109,6 +109,8 @@ export default function AboutSection() {
                   <img
                     src={card.image}
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover"
                   />
                 </div>

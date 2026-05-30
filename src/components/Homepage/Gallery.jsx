@@ -65,6 +65,8 @@ const Gallery = () => {
               <img
                 src={img.src}
                 alt={`gallery-${i + 1}`}
+                loading="lazy"
+                decoding="async"
                 className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
               />
             </div>
@@ -108,6 +110,7 @@ const Gallery = () => {
             <img
               src={activeImage}
               alt="popup fullscreen"
+              decoding="async"
               className="max-h-[95vh] max-w-[95vw] object-contain rounded-lg shadow-2xl"
             />
           </div>

@@ -59,6 +59,8 @@ export default function MethodInAction() {
                     <img
                       src={image}
                       alt={`Slide ${index + 1}`}
+                      loading={isActive ? "eager" : "lazy"}
+                      decoding="async"
                       className="h-full w-full object-cover"
                     />
 
